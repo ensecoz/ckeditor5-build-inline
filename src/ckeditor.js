@@ -27,7 +27,7 @@ import Paragraph from "@ckeditor/ckeditor5-paragraph/src/paragraph";
 import PasteFromOffice from "@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice";
 import Table from "@ckeditor/ckeditor5-table/src/table";
 import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar";
-import SimpleUpload from "ckeditor5-simple-upload/src/simpleupload";
+import SimpleUpload from "@ensecoz/ckeditor5-simple-upload/src/simpleupload";
 
 export default class InlineEditor extends InlineEditorBase {}
 

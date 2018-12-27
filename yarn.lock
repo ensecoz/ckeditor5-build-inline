@@ -299,6 +299,16 @@
     "@ckeditor/ckeditor5-ui" "^11.2.0"
     "@ckeditor/ckeditor5-utils" "^11.1.0"
 
+"@ensecoz/ckeditor5-simple-upload@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@ensecoz/ckeditor5-simple-upload/-/ckeditor5-simple-upload-1.0.9.tgz#baf7df4285aebb91f493b9e618d4d9ef3596927a"
+  integrity sha512-gMRqwQvaGYCSgXOMkv1TIJ5fG4TkuTNPrgAvJg+Ib3FNe/ZxgcbZqG5JwQyJ2tu1zSzRVbFWA2JneQSrKGAC+g==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^10.0.0"
+    "@ckeditor/ckeditor5-engine" "^10.0.0"
+    "@ckeditor/ckeditor5-upload" "^10.0.0"
+    exif-js "^2.3.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -862,6 +872,7 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
 ckeditor5-simple-upload@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/ckeditor5-simple-upload/-/ckeditor5-simple-upload-1.0.4.tgz#e9a4ba4d6d7fb894e68f41ee6e92536c2375ca1b"
+  integrity sha512-NIBX8pMh2hgSeZGv9sXSE6+zQOu4LNaSQh3SAifMoum435z/Hef0X+V5WbB5dtZ0a1c8VZye+LtUbzT5iRWuXw==
   dependencies:
     "@ckeditor/ckeditor5-core" "^10.0.0"
     "@ckeditor/ckeditor5-engine" "^10.0.0"
@@ -1466,6 +1477,11 @@ execa@^0.10.0:
     p-finally "^1.0.0"
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
+
+exif-js@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/exif-js/-/exif-js-2.3.0.tgz#9d10819bf571f873813e7640241255ab9ce1a814"
+  integrity sha1-nRCBm/Vx+HOBPnZAJBJVq5zhqBQ=
 
 expand-brackets@^2.1.4:
   version "2.1.4"
